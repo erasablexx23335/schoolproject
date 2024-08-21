@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    padding: 8px;
+    margin: 0px;
+    list-style: none;
+    text-align: right;
+    background: #0c58a2;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    padding: 20px 15px;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: gray;
+}
+
+.pe-md-5{
+    /* display: flex; */
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    /* justify-content: left; */
+    
+}
+
+.bigTitle{
+    /* display: flex; */
+}
+
+.bigTitle a{
+    text-decoration: none;
+
+}
+
+.smlTitle{
+    font-size: 16.5px;
+    text-align: left;
+}
+
+#imgDav{
+    width: 100px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+#innerNav {
+    background: #fff;
+    padding: 0.5rem 0;
+}  
+
+.boxes{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    /* background-color: yellow; */
+    /* padding: 10px 5px; */
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.boxes h3{
+    padding: 10px 35px;
+    right: auto;
+}
+
+h3{
+    background-color: gray;
+    height: 10vh;
+    border: 1px solid black;
+    border-radius: 15px;
+    align-items: center;
+    justify-self: start;
+}
+
+.cards{
+    height: 50%;
+    width: 51%;
+}
+
+ p{
+    columns: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: left;
+}
+
+.image{
+    height: 50vh;
+    width: 50vw;
+    background-image: url(https://davrohini.org.in/File/8929/Message_0d7b4e32-18ae-4bd0-8648-4d74962984a7_sc1.jpg);
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.paras{
+    /* background-color: greenyellow; */
+    color: rgb(29, 29, 29);
+    margin: auto;
+    bottom: 50;
+    flex-direction: column;
+    /* padding-left: 50%; */
+    margin: auto;
+    font-size: 15px;
+    
+}
+
+.btn{
+    height: 50%;
+    width: 50%;
+    /* background-color: aqua; */
+    color: rgb(4, 4, 4);
+    text-align: center;
+}
+
+.btn h4{
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    padding: 18px 50px;
+
+    background-color: aliceblue;
+    border: 1px solid gray;
+    border-radius: 20px;
+    font-size: 10px;
+    
+}
+
+.parent{
+    width: 55%;
+    height: 50%;
+    /* border: 1px solid black; */
+    text-align: center;
+    justify-content: center;
+}
+
+.image2{
+    display: flex;
+}
+
+.container{
+    /* display: flex; */
+    height: 100%;
+    width: 100%;
+}
+
+.insideTitle{
+    display: flex;
+    bottom: 40%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #0c58a2;
+    color: white;
+    height: 10vh;
+    align-items: center;
+}
+
+#insideSchool .insideTabs .nav-item .active span {
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+}
+
+#insideSchool .insideTabs .nav-pills {
+    padding: 0;
+    border: 0.15rem solid rgba(128, 128, 128, 0.303);
+}
+
+#insideSchool .insideTabs .nav-pills .nav-item {
+    width: 31.2%;
+
+}
+
+#insideSchool .insideTabs .nav-item{
+    text-align: center;
+}
+
+.nav-pills{
+    display: flex;
+    padding: 13px 10px;
+    list-style: none;
+    gap: 15px 100px;
+    margin: auto;
+}
+
+.nav-pills ul{
+    text-align: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+#insideSchool {
+    background: #fff;
+    margin: 1.5rem 0;
+    padding: 1.5rem 0;
+}
+
+#insideSchool .insideTabs .nav-item .active {
+    background: linear-gradient(#27A9F2, #8ABF57);
+}
+
+.tab-content#pills-tabContent{
+    display: flex;
+    gap: 5px 5px;
+    width: 500vw;
+    height: 50vh;
+}
+
+#insideSchool .readMoreInside .btn {
+    background: linear-gradient(#32A0DD, #80B66B);
+    font-size: 1.8rem;
+    padding: .25rem 6rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.insideTabs{
+    border: 1px solid grey;
+    height: 51vh;
+}
+
+#photos {
+    padding: 2rem 0;
+    background: #eee;
+}
+body * {
+    font-family: 'Poppins', sans-serif;
+}
+body * {
+    font-family: 'Poppins', sans-serif;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background: #26a8f2;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    /* font-family: 'Poppins', sans-serif !important; */
+    font-size: 10pt;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background: #26a8f2;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+:root {
+    --uk-position-margin-offset: 0px;
+}
+:root {
+    --uk-leader-fill-content: .;
+}
+:root {
+    --uk-breakpoint-s: 640px;
+    --uk-breakpoint-m: 960px;
+    --uk-breakpoint-l: 1200px;
+    --uk-breakpoint-xl: 1600px;
+}
+:root, [data-bs-theme=light] {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-primary-text: #0a58ca;
+    --bs-secondary-text: #6c757d;
+    --bs-success-text: #146c43;
+    --bs-info-text: #087990;
+    --bs-warning-text: #997404;
+    --bs-danger-text: #b02a37;
+    --bs-light-text: #6c757d;
+    --bs-dark-text: #495057;
+    --bs-primary-bg-subtle: #cfe2ff;
+    --bs-secondary-bg-subtle: #f8f9fa;
+    --bs-success-bg-subtle: #d1e7dd;
+}
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    background: #fff;
+    color: #666;
+}
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: #428bca;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::selection {
+    background: #39f;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+@media (min-width: 768px) {
+    .row-cols-md-3 > * {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+}
+
+ 

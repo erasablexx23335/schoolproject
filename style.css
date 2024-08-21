@@ -1,0 +1,121 @@
+/* Reset some basic styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #101010;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar styles */
+.navbar {
+    background: #80dfeb;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-menu .nav-list {
+    display: flex;
+}
+
+.nav-menu .nav-list li {
+    margin-left: 1.5rem;
+}
+
+.nav-menu .nav-list a {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+.nav-menu .nav-list a:hover {
+    background: #555;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://davrohini.org.in/File/8929/Message_0d7b4e32-18ae-4bd0-8648-4d74962984a7_sc1.jpg') no-repeat center center/cover;
+    color: #080606;
+    text-align: center;
+    padding: 5rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+.hero .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    /* background-color: #f5ebeb; */
+    color: burlywood;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+
+.hero .btn {
+    background: #ff9900;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.hero .btn:hover {
+    background: #e68a00;
+}
+
+/* Content Sections */
+.section {
+    padding: 4rem 0;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer p {
+    margin: 0;
+}
